@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+nav .navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color: white !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+nav .navbar__content {
+  margin-left: 21%;
+  padding-top: 20px;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: 62%;
+  display: flex;
+  justify-content: center;
+  min-height: 800px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.container .elonMusk {
+  width: 100%;
+  background-color: white;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.container .elonMusk__img {
+  width: 152px;
+  height: 152px;
+  padding-bottom: 200px;
+  border-radius: 50%;
+}
+.container .elonMusk__img #elonmusk {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(9, 179, 179);
+}
+.container .elonMusk__text {
+  color: rgb(0, 179, 179);
+  padding-bottom: 10px;
+}
+.container .elonMusk__text h1 {
+  font-size: xx-large;
+}
+
+.container .money {
+  margin: -520px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  background-color: darkcyan;
+  width: 100%;
+  box-shadow: darkcyan 0px 25px 20px -15px;
+}
+.container .money__count {
+  text-align: center;
+  color: white;
+}
